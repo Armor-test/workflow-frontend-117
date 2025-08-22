@@ -1,0 +1,38 @@
+# CODEOWNERS file for workflow-frontend-117
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-security @Armor-test/team-core @Armor-test/grp-reporting
+
+# Directory ownership
+/spec/ @Armor-test/squad-frontend @Armor-test/grp-search @Armor-test/team-logging
+/core/ @Armor-test/dept-reporting @Armor-test/team-reporting @Armor-test/grp-api
+/common/ @Armor-test/squad-apps @Armor-test/dept-data
+/auth/ @Armor-test/grp-payments @Armor-test/squad-payments @Armor-test/team-frontend
+/build/ @Armor-test/dept-automation @Armor-test/squad-ux
+/examples/ @Armor-test/squad-database @Armor-test/dept-reporting
+/assets/ @Armor-test/dept-identity @Armor-test/squad-cloud @Armor-test/dept-automation
+/data/ @Armor-test/unit-design @Armor-test/dept-security @Armor-test/dept-notifications
+/pkg/ @Armor-test/team-security @Armor-test/squad-apps
+/test/ @Armor-test/squad-ux @Armor-test/unit-test @Armor-test/unit-design
+/docs/ @Armor-test/squad-database @Armor-test/unit-design
+/models/ @Armor-test/squad-product @Armor-test/team-reporting
+/api/ @Armor-test/dept-test @Armor-test/team-research
+/public/ @Armor-test/dept-logging @Armor-test/dept-test
+/hooks/ @Armor-test/grp-ui @Armor-test/squad-apps @Armor-test/squad-cloud
+
+# File type ownership
+*.swift @Armor-test/squad-search @Armor-test/squad-ml @Armor-test/grp-api
+*.py @Armor-test/squad-ux @Armor-test/team-security @Armor-test/dept-identity
+*.tsx @Armor-test/squad-reporting @Armor-test/team-research @Armor-test/squad-database
+*.toml @Armor-test/team-core @Armor-test/squad-database @Armor-test/dept-reliability
+*.rb @Armor-test/squad-ml @Armor-test/squad-product @Armor-test/squad-database
+*.yml @Armor-test/dept-billing @Armor-test/dept-reliability @Armor-test/dept-identity
+*.scss @Armor-test/grp-storage @Armor-test/grp-integration
+*.graphql @Armor-test/dept-data @Armor-test/grp-reporting
+*.config @Armor-test/squad-performance @Armor-test/dept-notifications @Armor-test/grp-search
+*.h @Armor-test/squad-ml @Armor-test/grp-api
+*.kt @Armor-test/squad-payments @Armor-test/squad-api @Armor-test/team-governance
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
